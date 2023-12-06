@@ -91,6 +91,3 @@ btnForCloseMenuMobile.addEventListener('click', (e) => {
 
 
 
-  function reloadPage() {
-    location.reload(true);
-  }
