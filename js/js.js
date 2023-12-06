@@ -88,3 +88,9 @@ btnForCloseMenuMobile.addEventListener('click', (e) => {
     btnForOpenMenuMobile.style.display = 'block';  
     btnForCloseMenuMobile.style.display = 'none';
 })
+
+
+
+  function reloadPage() {
+    location.reload(true);
+  }
