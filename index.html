@@ -411,15 +411,15 @@
 
         <div class="contform_right">
            <div class="form" 
-           action="https://formspree.io/f/xqkvraon" method="POST">
+           action="https://formspree.io/f/xqkvraon" method="POST" id="myForm">
             <div class="contform_item">
                  <p class="contform_right_text">Name</p>
-                  <input type="text" name=''>
+                  <input type="text" name='name'>
              </div>
 
              <div class="contform_item">
                 <p class="contform_right_text">Email</p>
-                 <input type="email">
+                 <input type="email" name="email">
             </div>
 
             <div class="contform_item">
@@ -428,7 +428,7 @@
             </div>
 
             <div class="contform_btn">
-              <button class="contform_link" type="submit">Let’s get started</button>
+              <button class="contform_link" type="submit" onclick="submitForm()>Let’s get started</button>
             </div>
 
           </div>
