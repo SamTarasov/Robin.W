@@ -90,8 +90,3 @@ btnForCloseMenuMobile.addEventListener('click', (e) => {
 })
 
 
-
- function submitForm() {
-    document.getElementById('myForm').submit();
-  }
-
