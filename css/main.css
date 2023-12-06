@@ -487,6 +487,8 @@ main{
     text-transform: uppercase;
     line-height: 150%;
     font-size: 18px;
+    border: none;
+    width: 100%;
 
     transition: all .5s ease;
 }
