@@ -1,0 +1,176 @@
+@media (min-width: 415px) {
+  .nav_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  nav {
+    display: none;
+  }
+  header {
+    background-image: none;
+    background-color: #000;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .hero_right {
+    position: relative;
+    left: 0;
+    top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_title {
+    font-size: 32px;
+    padding: 0 10px;
+    max-width: 390px;
+  }
+  .hero_text {
+    padding: 0 10px;
+    font-size: 21px;
+    max-width: 390px;
+  }
+  .experience {
+    padding-top: 30%;
+  }
+  .experience_table {
+    grid-template-columns: 1fr;
+  }
+  .experience_item_title {
+    max-width: 300px;
+  }
+  .philosophy {
+    margin-top: 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .skillset_grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10%;
+  }
+  .skillset_right {
+    grid-template-columns: 1fr;
+  }
+  .skillset_comp {
+    margin-top: 90%;
+  }
+  .skillset_right_item_text {
+    margin-top: 5%;
+  }
+  .skillset_comp {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project {
+    grid-template-columns: 1fr;
+    grid-gap: 1%;
+  }
+  .project_title {
+    margin-top: 3%;
+    margin-bottom: 25%;
+  }
+  .project_item_text {
+    padding: 5% 10%;
+  }
+  .project_item {
+    margin-top: 15%;
+  }
+  .project_btn {
+    margin-bottom: 10%;
+  }
+  .airplane {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .dribbble_text {
+    padding: 10% 0;
+  }
+  .dribbble_img {
+    margin-top: 15%;
+  }
+  .dribbble_img_item {
+    content: url(../img/mobile/dribble_img.png);
+    width: 100vw;
+  }
+  .review {
+    grid-template-columns: 1fr;
+  }
+  .review_text {
+    padding: 10% 0;
+  }
+  .photography {
+    padding: 30% 0;
+  }
+  .photography_county_photos {
+    grid-template-columns: 1fr;
+  }
+  .photography_county_category {
+    padding: 10% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .photography_link_category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .country_item {
+    width: 100%;
+  }
+  .contform {
+    grid-template-columns: 1fr;
+    padding-bottom: 20%;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 10% 10% 25% 7%;
+  }
+  .footer_right {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav_link {
+    padding: 15px 20px;
+  }
+
+  .skillset_grid {
+    grid-template-columns: 1fr;
+  }
+  .skillset_right {
+    margin: 5% 0;
+  }
+  .skillset__left_text {
+    max-width: none;
+  }
+  .skillset_comp {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project {
+    grid-template-columns: 1fr;
+    grid-gap: 1%;
+  }
+.project_item{
+    max-width: 688px;
+}
+.project_item img{
+    width: 100%;
+}
+.photography_county_photos{
+    grid-template-columns: repeat(2,1fr);
+}
+.country_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+}
